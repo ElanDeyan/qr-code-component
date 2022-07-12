@@ -1,0 +1,30 @@
+@import url('./variables.css');
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-light-gray);
+    overflow: hidden;
+}
+
+.qr-code-component {
+    width: 300px;
+    padding: 1.25em;
+    background-color: var(--clr-white);
+    border-radius: 25px;
+}
+
+.qr-code-component .qr-code-image {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.qr-code-component .qr-code-image img {
+    max-width: 100%;
+    height: auto;
+}
